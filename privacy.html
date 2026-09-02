@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>隱私權政策 — Ryan AI Secretary</title>
+<style>
+  body { font: 16px/1.6 -apple-system, "Helvetica Neue", Arial, "PingFang TC", sans-serif;
+         max-width: 680px; margin: 6vh auto; padding: 0 20px; color: #1a1a1a; }
+  h1 { font-size: 1.5rem; }
+  h2 { font-size: 1.1rem; margin-top: 2rem; }
+  a { color: #1558d6; }
+  footer { margin-top: 3rem; font-size: 0.85rem; color: #666; }
+</style>
+</head>
+<body>
+  <h1>隱私權政策</h1>
+  <p>最後更新：2026 年 9 月 3 日</p>
+
+  <p>
+    「Ryan AI Secretary」（下稱「本應用程式」）是開發者本人（poyan451542212@gmail.com）
+    自用的個人自動化工具，無其他使用者。本政策說明本應用程式如何存取與使用 Google 使用者資料。
+  </p>
+
+  <h2>存取的資料</h2>
+  <p>本應用程式使用 Google OAuth，向開發者本人的 Google 帳戶請求下列權限範圍：</p>
+  <ul>
+    <li>Google Tasks（<code>.../auth/tasks</code>）—— 讀取與更新開發者自己的待辦清單</li>
+    <li>Google 日曆（<code>.../auth/calendar</code>）—— 讀取與建立開發者自己的行事曆事件</li>
+    <li>Google 試算表（<code>.../auth/spreadsheets</code>）—— 讀寫開發者自己建立的工作儀表板試算表</li>
+  </ul>
+
+  <h2>使用方式</h2>
+  <p>
+    這些資料僅用於在開發者本人的裝置上，產生每日／每週的待辦與行事曆摘要、
+    以及在指定的試算表中同步待辦狀態。資料不會用於廣告，不會販售，
+    也不會提供給任何第三方。
+  </p>
+
+  <h2>儲存與保留</h2>
+  <p>
+    OAuth 存取權杖與更新權杖，以及執行期間的暫存資料，僅保存在開發者本人
+    24 小時運作的個人電腦上的本機檔案中。沒有雲端伺服器或外部資料庫。
+    移除授權即可停止一切存取：於
+    <a href="https://myaccount.google.com/permissions">Google 帳戶第三方存取權</a>
+    撤銷本應用程式，並刪除本機權杖檔案。
+  </p>
+
+  <h2>Google 使用者資料的「限制使用」聲明</h2>
+  <p>
+    本應用程式對透過 Google API 取得資訊的使用，遵循
+    <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API 服務使用者資料政策</a>，
+    包含「限制使用」（Limited Use）規定。
+  </p>
+
+  <h2>第三方服務</h2>
+  <p>
+    本應用程式會將開發者輸入的指令與產生的摘要，透過 Telegram Bot API 傳送到開發者本人的
+    Telegram 帳號；並可能將處理任務所需的內容傳給開發者所使用的 AI 模型供應商
+    （如 Anthropic Claude）以產生回應。除此之外不涉及其他第三方。
+  </p>
+
+  <h2>聯絡方式</h2>
+  <p>poyan451542212@gmail.com</p>
+
+  <footer><a href="index.html">← 回首頁</a></footer>
+</body>
+</html>
